@@ -20,7 +20,7 @@ document.getElementById('formulario').addEventListener('submit', function(event)
 if (dias < 31)
 {
     document.getElementById('resultado').innerText = 
-        `Necesito ${total} ${moneda} por día para estar tranquilo, entonces junta ${totalEnARS} pesos argentinos.`;
+        `Necesito 100 ${moneda} por día para estar tranquilo, entonces junta ${totalEnARS} pesos argentinos.`;
 }
 else {
     document.getElementById('resultado').innerText = 'no se puede calcular';
